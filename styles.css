@@ -7,8 +7,7 @@
 }
 p {
     white-space: nowrap;
-  }
-
+}
 
 body {
     background-image: url("Background.jpg");
@@ -55,9 +54,43 @@ main p {
     line-height: 1.6;
 }
 
+nav {
+     /* Dark background for the navigation */
+    padding: 10px 20px; /* Padding around the navigation */
+    text-align: center; /* Center-align the navigation items */
+}
+
+.headerList {
+    list-style: none; /* Remove default list bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.headerList li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 15px; /* Space between list items */
+}
+
+.headerList li a {
+    color: black; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text */
+    font-size: 20px; /* Set a font size */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.headerList li a:hover {
+    color: #4CAF50; /* Change color on hover */
+}
+
+nav br {
+    display: none; /* Hide <br> tags */
+}
+
 footer {
     text-align: center;
     padding: 3px;
     background-color : green;
     color: white;
+    list-style: none;
   }
